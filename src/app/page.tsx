@@ -6,12 +6,14 @@ export default function Home() {
         <span style={{ fontFamily: "var(--font-display)" }} className="text-2xl font-bold text-blue-700 tracking-widest">
           DataVoice
         </span>
-        <a
-          href="mailto:hello@wikolabs.com?subject=DataVoice — Demande de démo"
-          className="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition"
-        >
-          Demander une démo
-        </a>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition">
+            📅 Réserver un créneau →
+          </a>
+          <a href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20DataVoice%20avec%20Wikolabs." target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition" style={{ background: "#25d366", borderColor: "#25d366" }}>
+            💬 WhatsApp →
+          </a>
+        </div>
       </nav>
 
       {/* Hero */}
@@ -23,12 +25,14 @@ export default function Home() {
         <p className="text-lg text-slate-600 max-w-2xl mx-auto mb-10">
           DataVoice transforme vos données brutes en réponses claires — sans SQL, sans dashboards complexes. Parlez à vos données comme à un analyste.
         </p>
-        <a
-          href="mailto:hello@wikolabs.com?subject=DataVoice — Demande de démo"
-          className="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-base font-bold hover:bg-blue-700 transition shadow-lg"
-        >
-          Essayer gratuitement
-        </a>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-base font-bold hover:bg-blue-700 transition shadow-lg">
+            📅 Réserver un créneau →
+          </a>
+          <a href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20DataVoice%20avec%20Wikolabs." target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-full text-base font-bold hover:bg-blue-700 transition shadow-lg" style={{ background: "#25d366", borderColor: "#25d366" }}>
+            💬 WhatsApp →
+          </a>
+        </div>
       </section>
 
       {/* Conversation Mockup */}
@@ -105,12 +109,14 @@ export default function Home() {
           Prêt à interroger vos données ?
         </h2>
         <p className="text-blue-100 mb-8 max-w-md mx-auto">Déployez DataVoice sur votre infrastructure en moins d&rsquo;une journée.</p>
-        <a
-          href="mailto:hello@wikolabs.com?subject=DataVoice — Demande de démo"
-          className="inline-block bg-white text-blue-700 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition shadow"
-        >
-          Contacter l&rsquo;équipe
-        </a>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-blue-700 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition shadow">
+            📅 Réserver un créneau →
+          </a>
+          <a href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20DataVoice%20avec%20Wikolabs." target="_blank" rel="noopener noreferrer" className="inline-block bg-white text-blue-700 px-8 py-4 rounded-full font-bold hover:bg-blue-50 transition shadow" style={{ background: "#25d366", borderColor: "#25d366" }}>
+            💬 WhatsApp →
+          </a>
+        </div>
       </section>
 
       <footer className="text-center py-6 text-slate-400 text-sm bg-white border-t border-blue-50">
